@@ -1,0 +1,49 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  4B2D92AD90215A24AC65CD94 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWidgetApp.swift; sourceTree = "<group>"; };
+  DECFEED70EB5DA0194C34962 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+  2A4467A716B382BA68A13C78 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+  3566741BEA661F81A8037426 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskWidgetExtension.swift; sourceTree = "<group>"; };
+  EDD751233C90F5CD660050C1 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  CEE22FE84A9A2BBCB11B884C = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  7BB9D3C7AE465544CD1EC1AF = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TaskWidgetApp.entitlements; sourceTree = "<group>"; };
+  56569A19746464D86B32CBA0 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TaskWidgetExtension.entitlements; sourceTree = "<group>"; };
+  A5044B41D500D2BC5E611351 = { isa = PBXBuildFile; fileRef = 4B2D92AD90215A24AC65CD94; };
+  5BD7BC35016BBA46D774F5E6 = { isa = PBXBuildFile; fileRef = DECFEED70EB5DA0194C34962; };
+  BC684DFC0833DC47E4C6BC1A = { isa = PBXBuildFile; fileRef = 2A4467A716B382BA68A13C78; };
+  A6E8644C377A1D54EBB58B84 = { isa = PBXBuildFile; fileRef = 2A4467A716B382BA68A13C78; };
+  417D63237594F2D49360388B = { isa = PBXBuildFile; fileRef = 3566741BEA661F81A8037426; };
+  B9C486CBBD4C5E82DD1534B6 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  7224446F3EA5D5A8B5BE1CD9 = { isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TaskWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+  60D6747B3D82E97D59385587 = { isa = PBXBuildFile; fileRef = 7224446F3EA5D5A8B5BE1CD9; settings = { ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+  FAD58DE7366495DB4650CFEF = { isa = PBXGroup; children = (4E42F7DD43ECBFE104DE5861, 2A6A84E9E44441AFBD75CC19, 5DAE429688AF1C521AD87AC3, 86024CAD1E83101D97359D73,);  sourceTree = "<group>"; };
+  4E42F7DD43ECBFE104DE5861 = { isa = PBXGroup; children = (4B2D92AD90215A24AC65CD94, DECFEED70EB5DA0194C34962, EDD751233C90F5CD660050C1, 7BB9D3C7AE465544CD1EC1AF,); path = TaskWidgetApp; sourceTree = "<group>"; };
+  2A6A84E9E44441AFBD75CC19 = { isa = PBXGroup; children = (3566741BEA661F81A8037426, CEE22FE84A9A2BBCB11B884C, 56569A19746464D86B32CBA0,); path = TaskWidgetExtension; sourceTree = "<group>"; };
+  5DAE429688AF1C521AD87AC3 = { isa = PBXGroup; children = (2A4467A716B382BA68A13C78,); path = Shared; sourceTree = "<group>"; };
+  86024CAD1E83101D97359D73 = { isa = PBXGroup; children = (B9C486CBBD4C5E82DD1534B6, 7224446F3EA5D5A8B5BE1CD9,); path = Products; sourceTree = "<group>"; };
+  377D13C89BB49B088ABBB758 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A5044B41D500D2BC5E611351, 5BD7BC35016BBA46D774F5E6, BC684DFC0833DC47E4C6BC1A,); runOnlyForDeploymentPostprocessing = 0; };
+  24D4C52EEC5FA4AA3E193836 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A6E8644C377A1D54EBB58B84, 417D63237594F2D49360388B,); runOnlyForDeploymentPostprocessing = 0; };
+  748CED3DD3ADD8223B8F2E73 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  C6E285907444ACE4568AE3DF = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  269605D45C104F12CBCDC8FB = { isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (60D6747B3D82E97D59385587,); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+  431387EB7262E1CFC79B125E = { isa = PBXContainerItemProxy; containerPortal = 4DC844ABCCFC0D132D087C1C; proxyType = 1; remoteGlobalIDString = ABF77184F55403D75B9D51D7; remoteInfo = TaskWidgetExtension; };
+  2254342BECCEAFBD04538E0A = { isa = PBXTargetDependency; target = ABF77184F55403D75B9D51D7; targetProxy = 431387EB7262E1CFC79B125E; };
+  D2A57DC1D883FD21FB995169 = { isa = PBXNativeTarget; buildConfigurationList = 09B31A7810640FF01202B26D; buildPhases = (377D13C89BB49B088ABBB758,748CED3DD3ADD8223B8F2E73,269605D45C104F12CBCDC8FB,); buildRules = (); dependencies = (2254342BECCEAFBD04538E0A,); name = TaskWidget; productName = TaskWidget; productReference = B9C486CBBD4C5E82DD1534B6; productType = "com.apple.product-type.application"; };
+  ABF77184F55403D75B9D51D7 = { isa = PBXNativeTarget; buildConfigurationList = 1C0977BA5601050D28E18ED3; buildPhases = (24D4C52EEC5FA4AA3E193836,C6E285907444ACE4568AE3DF,); buildRules = (); dependencies = (); name = TaskWidgetExtension; productName = TaskWidgetExtension; productReference = 7224446F3EA5D5A8B5BE1CD9; productType = "com.apple.product-type.app-extension"; };
+  4DC844ABCCFC0D132D087C1C = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1500; TargetAttributes = { D2A57DC1D883FD21FB995169 = { CreatedOnToolsVersion = 15.0; }; ABF77184F55403D75B9D51D7 = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = DDAF8C69941B6CE3E536EC43; compatibilityVersion = "Xcode 14.0"; developmentRegion = es; hasScannedForEncodings = 0; knownRegions = (es,en,Base,); mainGroup = FAD58DE7366495DB4650CFEF; productRefGroup = 86024CAD1E83101D97359D73; projectDirPath = ""; projectRoot = ""; targets = (D2A57DC1D883FD21FB995169,ABF77184F55403D75B9D51D7,); };
+  2D53B50AE2273FABAAF8B8FA = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; GCC_OPTIMIZATION_LEVEL = 0; ENABLE_USER_SCRIPT_SANDBOXING = YES; }; name = Debug; };
+  D4B2141B77146EF47E948847 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_OPTIMIZATION_LEVEL = "-O"; GCC_OPTIMIZATION_LEVEL = s; ENABLE_USER_SCRIPT_SANDBOXING = YES; }; name = Release; };
+  4CF9E94418EB14931A5453D9 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.taskwidget; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TaskWidgetApp/Info.plist; CODE_SIGN_ENTITLEMENTS = TaskWidgetApp/TaskWidgetApp.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; SWIFT_EMIT_LOC_STRINGS = YES; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; }; name = Debug; };
+  01C5DD840EB3D74B2FF3C172 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.taskwidget; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TaskWidgetApp/Info.plist; CODE_SIGN_ENTITLEMENTS = TaskWidgetApp/TaskWidgetApp.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; SWIFT_EMIT_LOC_STRINGS = YES; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; }; name = Release; };
+  3E6CFA059E586C8EB8F7D2AF = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.taskwidget.extension; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TaskWidgetExtension/Info.plist; CODE_SIGN_ENTITLEMENTS = TaskWidgetExtension/TaskWidgetExtension.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; SWIFT_EMIT_LOC_STRINGS = YES; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; APPLICATION_EXTENSION_API_ONLY = YES; SKIP_INSTALL = YES; }; name = Debug; };
+  932C8931E5D3CEF0A8B5528F = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.taskwidget.extension; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = TaskWidgetExtension/Info.plist; CODE_SIGN_ENTITLEMENTS = TaskWidgetExtension/TaskWidgetExtension.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; SWIFT_EMIT_LOC_STRINGS = YES; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; APPLICATION_EXTENSION_API_ONLY = YES; SKIP_INSTALL = YES; }; name = Release; };
+  DDAF8C69941B6CE3E536EC43 = { isa = XCConfigurationList; buildConfigurations = (2D53B50AE2273FABAAF8B8FA, D4B2141B77146EF47E948847,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  09B31A7810640FF01202B26D = { isa = XCConfigurationList; buildConfigurations = (4CF9E94418EB14931A5453D9, 01C5DD840EB3D74B2FF3C172,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  1C0977BA5601050D28E18ED3 = { isa = XCConfigurationList; buildConfigurations = (3E6CFA059E586C8EB8F7D2AF, 932C8931E5D3CEF0A8B5528F,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ };
+ rootObject = 4DC844ABCCFC0D132D087C1C;
+}
